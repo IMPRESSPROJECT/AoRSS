@@ -1,0 +1,12 @@
+Package: AoRSS
+Type: Package
+Title: Analysis of residual sum of squares(AoRSS)
+Version: 0.1.0
+Authors@R: c(person("Marta", "Cousido Rocha", email = "marta.cousido@ieo.es", role = c("aut", "cre")),
+  person("Santiago", "Cerviño López", email = "santiago.cervino@ieo.es", role = c("aut", "ths")))
+Maintainer: Marta Cousido Rocha <martacousido@uvigo.es>
+Description: Reports the test statistic and p-value corresponding to a method of comparing a number of curves called the analysis of residual sum of squares (AoRSS).
+License: GPL-2
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.0
