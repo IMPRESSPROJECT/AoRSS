@@ -134,7 +134,7 @@ AoRSS.test.advanced<-function(data,parameters,type){
       lengthd=c(lengthd,datai$Length)
     }
     lengthd=lengthd[-1]
-    weightd=lengthd[-1]
+    weightd=weightd[-1]
 
     estT=a[K+1]*(as.numeric(lengthd))^b[K+1]
 
