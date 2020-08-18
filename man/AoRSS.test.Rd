@@ -45,6 +45,9 @@ K=2
 N=24
 AoRSS.test(RSSi,RSSp,K,N)
 }
+\references{
+Haddon, Malcolm. (2011). Modelling and Quantitative Methods in Fisheries 2nd Edition.
+}
 \author{
 \itemize{
 \item{Marta Cousido-Rocha}

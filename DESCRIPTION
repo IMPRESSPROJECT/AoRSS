@@ -5,7 +5,7 @@ Version: 0.1.0
 Authors@R: c(person("Marta", "Cousido Rocha", email = "marta.cousido@ieo.es", role = c("aut", "cre")),
   person("Santiago", "Cerviño López", email = "santiago.cervino@ieo.es", role = c("aut", "ths")))
 Maintainer: Marta Cousido Rocha <martacousido@uvigo.es>
-Description: Reports the test statistic and p-value corresponding to a method of comparing a number of curves called the analysis of residual sum of squares (AoRSS).
+Description: Reports the test statistic and p-value corresponding to a method of comparing a number of curves called the analysis of residual sum of squares (AoRSS).  The test implemented in this package can be founded at Section 9.4.2 An Overall Test of Coincident Curves of Haddon (2011). Reference: Haddon, Malcolm. (2011). Modelling and Quantitative Methods in Fisheries 2nd Edition. 
 License: GPL-2
 Encoding: UTF-8
 LazyData: true

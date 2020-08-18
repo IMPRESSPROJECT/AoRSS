@@ -20,7 +20,7 @@ The value of the F-statistic and the corresponding p-value.
 Returns the test statistic and p-value corresponding to a method of comparing a number of curves called the analysis of residual sum of squares (AoRSS). The null hypothesis of test is that the K curves can be assumed coincident.
 }
 \details{
-See details of AoRSS.test() function. The advance of the current function is that the residuals are computed inside the function and the user only needs to provide de parameters of the individual and pooled curves. Of course, this function implement a limit type of curves: Von Bertalanfly growth curve and length-weight curve.\itemize{
+See details of AoRSS.test() function. The advance of the current function is that the residuals are computed inside the function and the user only needs to provide de parameters of the individual and pooled curves. Of course, this function implements a limit type of curves: Von Bertalanfly growth curve, length-weight curve and  Logistic function.\itemize{
 \item Length-Weight relationship
 
 \deqn{W=a*L^b}
@@ -83,6 +83,9 @@ Mat2=c(0.01212843,0.08317270,0.40131234,0.83201839,0.97340301)
 data[[1]]=data.frame(Mat1,ages)
 data[[2]]=data.frame(Mat2,ages)
 AoRSS.test.advanced(data,parameters,type="Logistic")
+}
+\references{
+Haddon, Malcolm. (2011). Modelling and Quantitative Methods in Fisheries 2nd Edition.
 }
 \author{
 \itemize{

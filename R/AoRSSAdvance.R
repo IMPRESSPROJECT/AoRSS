@@ -5,7 +5,7 @@
 #' @param data a list containing the data (in data.frame) for fitting each the individual curves. Length-Age data if type="VBG" or Weight-Length data if type="WL".The Logistic curve can be used in many cases of study, hence the data.frame can be in the first column the response variable and in the second one the points where the logistic function must be computed.
 #' @param type the selected type of curve: Von Bertalanfly growth curve (type="VBG), length-weight curve (type="WL") and logistic curve (type="Logistic").
 #' @param parameters the corresponding parameters according the selected type. If type="VBG", L_inf=Asymptotic average maximum body size, k=Growth rate coefficient that determines how quickly the maximum is attained, and t0=Hypothetical age at which the species has zero length. If type="WL", a=Allometric growth parameter and b=Scaling constant. If type="Logistic", x50=x-value of the sigmoid's midpoint of the logistic function and xd=Minus the inverse of the logistic growth rate (steepness of the curve).
-#' @details See details of AoRSS.test() function. The advance of the current function is that the residuals are computed inside the function and the user only needs to provide de parameters of the individual and pooled curves. Of course, this function implement a limit type of curves: Von Bertalanfly growth curve and length-weight curve.\itemize{
+#' @details See details of AoRSS.test() function. The advance of the current function is that the residuals are computed inside the function and the user only needs to provide de parameters of the individual and pooled curves. Of course, this function implements a limit type of curves: Von Bertalanfly growth curve, length-weight curve and  Logistic function.\itemize{
 #' \item Length-Weight relationship
 #'
 #' \deqn{W=a*L^b}
@@ -19,6 +19,7 @@
 #'
 #' \item Logistic function \deqn{L(x)=1/(1+exp((x-x50)/xd))} where x50 is the x-value of the sigmoid's midpoint of the logistic function, and xd is minus the inverse of the logistic growth rate (steepness of the curve).}
 #' @return The value of the F-statistic and the corresponding p-value.
+#' @references Haddon, Malcolm. (2011). Modelling and Quantitative Methods in Fisheries 2nd Edition.
 #' @author
 #' \itemize{
 #' \item{Marta Cousido-Rocha}

@@ -14,6 +14,7 @@
 #' where F is the F statistic with 3.(K – 1) and (N – 3.K) degrees of freedom, K is the number of curves being compared, and N is the total or pooled sample size.
 #' Remember that the null hypothesis is that the K curves can be assumed coincident.
 #' @return The value of the F-statistic and the corresponding p-value.
+#' @references Haddon, Malcolm. (2011). Modelling and Quantitative Methods in Fisheries 2nd Edition.
 #' @author
 #' \itemize{
 #' \item{Marta Cousido-Rocha}
